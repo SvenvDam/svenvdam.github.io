@@ -28,6 +28,7 @@ $light-gray-color: #ccc;
 
 // Font Colors
 $base-font-color: rgba($dark-gray-color, .8);
+$code-font-color: #C0C5CE;
 
 // Border
 $base-border-color: $light-gray-color;
@@ -36,6 +37,7 @@ $base-border: 1px solid $base-border-color;
 // Background Colors
 $base-background-color: $white-color;
 $secondary-background-color: tint($base-border-color, 80%);
+$code-background-color: #343D46;
 
 // Forms
 $form-box-shadow: inset 0 1px 3px rgba($black-color, 0.06);
