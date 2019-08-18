@@ -16,7 +16,8 @@ I like too cook and discover new recipes, learn about wine and pair the two toge
 
 <br/>
 ---
-## Contact
+## Links
 
-* LinkedIn [SvenvDam](https://www.linkedin.com/in/svenvdam/)
-* GitHub [SvenvDam](https://github.com/SvenvDam)
+* **LinkedIn:** [SvenvDam](https://www.linkedin.com/in/svenvdam/)
+* **GitHub:** [SvenvDam](https://github.com/SvenvDam)
+* [RSS]({{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }})
