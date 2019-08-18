@@ -37,7 +37,6 @@ $base-border: 1px solid $base-border-color;
 // Background Colors
 $base-background-color: $white-color;
 $secondary-background-color: tint($base-border-color, 80%);
-$code-background-color: #343D46;
 
 // Forms
 $form-box-shadow: inset 0 1px 3px rgba($black-color, 0.06);
@@ -46,3 +45,21 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
+
+// Syntax
+$base00: #263238 !default;
+$base01: #2e3c43 !default;
+$base02: #314549 !default;
+$base03: #546e7a !default;
+$base04: #b2ccd6 !default;
+$base05: #eeffff !default;
+$base06: #eeffff !default;
+$base07: #ffffff !default;
+$base08: #f07178 !default;
+$base09: #f78c6c !default;
+$base0a: #ffcb6b !default;
+$base0b: #c3e88d !default;
+$base0c: #89ddff !default;
+$base0d: #82aaff !default;
+$base0e: #c792ea !default;
+$base0f: #ff5370 !default;
