@@ -4,8 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+My name is Sven van Dam. 
+I'm a data/software engineer living in Amsterdam with interests in software development, data science, cooking and wine.
+I do most of my development in Scala and find myself being interested in functional programming.
 
+I studied Econometrics at the University of Amsterdam.
+
+Outside of work I spend a lot of time on food and wine. 
+I like too cook and discover new recipes, learn about wine and pair the two together.
 
 
 <br/>
