@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "Sven van Dam"
 title_right   : "" # default: ""
-description   : "My personal website"
+description   : "Personal Website"
 keywords      : "Sven, van Dam, Sven van Dam, svenvandam, blog, data, engineer, developer, software"
 url           : https://www.svenvandam.com # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
