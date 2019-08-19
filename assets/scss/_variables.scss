@@ -1,5 +1,18 @@
 // Typography
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700');
+
+@font-face {
+  font-family: 'Overpass Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Overpass Mono Regular'), local('OverpassMono-Regular'), url(../fonts/overpass_mono_regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Overpass Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Overpass Mono Bold'), local('OverpassMono-Bold'), url(../fonts/overpass_mono_bold.ttf) format('truetype');
+}
+
 $base-font-family: 'Overpass Mono', monospace;
 $heading-font-family: $base-font-family;
 
