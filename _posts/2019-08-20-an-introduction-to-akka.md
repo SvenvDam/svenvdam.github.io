@@ -44,11 +44,11 @@ object MyActor {
 ```
 
 How do we then make our actor react to these messages? Tis is where the `receive` method comes into play. 
-The receive method is of the `Receive` type, which is equal to `PartialFunction[Any, Unit]`.
+The receive method is of the `Receive` type, which returns a `PartialFunction[Any, Unit]`.
 Hence, we can define behaviour for any possible object and don't have to return anything.
 In the actor model we typically send back a message instead of returning a value, but we could also do something like sending a message to another actor, an IO operation or something else.
 
-For our example, `MyActor` can respond to a `Multiply` message as follows.
+For our example, `MyActor` can react to a `Multiply` message as follows.
 
 ```scala
 class MyActor extends Actor {
@@ -76,9 +76,9 @@ In fact, `myActor` is in this example not an object of class `MyActor`, but an `
 You can think of an `ActorRef` as the address to send the message to, much like a postal address for a letter.
 To understand how an actor responds to receiving messages, we need to talk about the *mailbox* concept.
 
-Each actor has its own mailbox where all incoming messages are being stored.
+Each actor has its own mailbox where all incoming messages are being enqueued.
 These messages are being stored in the same order as they were sent, regardless of who the sender of the message is.
-The receiving actor will always take the oldest message in its mailbox, process it and when it is done take the next message from its mailbox.
+The receiving actor will always dequeue the oldest message in its mailbox, process it and when it is done take the next message from its mailbox.
 Hence, messages are processed first in, first out and one-by-one.
 
 ## The interior of an actor
@@ -227,6 +227,15 @@ This has the implication that an uncaught exception will by default not bring do
 (but it can bring your actor in a permanent retry loop if you are not careful)!
 The way an actor decides what to do with an exception thrown by a child is called its `SupervisionStartegy` and may include things like retry mechanisms.
 
+# Conclusion
 
-[^1]: https://doc.akka.io/docs/akka/current/actors.html#props
-[^2]: https://doc.akka.io/docs/akka/current/actors.html#recommended-practices
+Akka actors gives you a powerful framework to design concurrent applications.
+This post gives a brief introduction on what actor are and how we work with them.
+There are tons of other resources available to learn more about akka.
+Besides, there are other projects in the Akka universe such as `akka-streams` for reactive streams and `akka-http` for building web applications.
+These projects can be used perfectly fine even in applications that do not rely on actors so I'd highly recommend reading up on them.
+
+# Links
+
+[^1]: [https://doc.akka.io/docs/akka/current/actors.html#props](https://doc.akka.io/docs/akka/current/actors.html#props)
+[^2]: [https://doc.akka.io/docs/akka/current/actors.html#recommended-practices](https://doc.akka.io/docs/akka/current/actors.html#recommended-practices)

@@ -199,5 +199,5 @@ The `ask` pattern is a nice tool to have when you need to link messages to respo
 
 # Links
 
-[^1]: https://docs.scala-lang.org/overviews/core/futures.html#execution-context
-[^2]: https://doc.akka.io/docs/akka/current/actors.html#ask-send-and-receive-future
+[^1]: [https://docs.scala-lang.org/overviews/core/futures.html#execution-context](https://docs.scala-lang.org/overviews/core/futures.html#execution-context)
+[^2]: [https://doc.akka.io/docs/akka/current/actors.html#ask-send-and-receive-future](https://doc.akka.io/docs/akka/current/actors.html#ask-send-and-receive-future)
