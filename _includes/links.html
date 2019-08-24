@@ -1,0 +1,16 @@
+<section class="social-links">
+    <div class="social-links">
+        <table>
+            <tr>
+            {% for social in site.social %}
+            <td>
+                <a href="{{ social.link }}" target="_blank">
+                    <img src="{{ social.icon }}" alt="{{ social.site }}" width="20" height="20">
+                    {{ social.site }}
+                </a>
+            </td>
+            {% endfor %}
+            </tr>
+        </table>
+    </div>
+</section>
