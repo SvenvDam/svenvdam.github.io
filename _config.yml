@@ -30,6 +30,19 @@ sass:
 author:
   name     : "Sven van Dam"
 
+social:
+  - site: Github
+    name: SvenvDam
+    link: https://github.com/SvenvDam
+    icon: /assets/icons/social/github.svg
+  - site: LinkedIn
+    name: svenvdam
+    link: https://www.linkedin.com/in/svenvdam/
+    icon: /assets/icons/social/linkedin.svg
+  - site: RSS
+    link: /feed.xml
+    icon: /assets/icons/social/rss.svg
+
 plugins:
   - jekyll-sitemap
   - bourbon

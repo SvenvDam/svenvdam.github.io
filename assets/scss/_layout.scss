@@ -74,6 +74,7 @@ hr {
   min-height: 80px;
 }
 
+
 .intro {
   .author-name {
     display: inline-block;
@@ -236,6 +237,17 @@ hr {
 
   .block {
     display: block;
+  }
+
+  .social-links {
+    td {
+      padding-top: 1cm;
+      text-align: center;
+
+      img {
+        vertical-align: top;
+      }
+    }
   }
 }
 

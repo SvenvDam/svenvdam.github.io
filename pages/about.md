@@ -13,17 +13,6 @@ I studied Econometrics at the University of Amsterdam.
 Outside of work I spend a lot of time on food and wine. 
 I like too cook and discover new recipes, learn about wine and pair the two together.
 
-
-<br/>
-
-# Links
-
----
-
-* **LinkedIn:** [SvenvDam](https://www.linkedin.com/in/svenvdam/)
-* **GitHub:** [SvenvDam](https://github.com/SvenvDam)
-* [RSS]({{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }})
-
 <br/>
 
 # Resume
