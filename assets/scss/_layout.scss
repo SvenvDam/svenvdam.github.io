@@ -170,8 +170,14 @@ hr {
 
 .post-title {
   margin-top: 0;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
   color: $dark-gray-color;
+}
+
+.post-description {
+  margin-top: 0;
+  margin-bottom: 2em;
+  color: $medium-gray-color;
 }
 
 .post-link,
