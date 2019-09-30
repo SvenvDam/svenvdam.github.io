@@ -31,12 +31,7 @@
 
   $coordinates: unpack($coordinates);
 
-  $offsets: (
-    top:    nth($coordinates, 1),
-    right:  nth($coordinates, 2),
-    bottom: nth($coordinates, 3),
-    left:   nth($coordinates, 4)
-  );
+  $offsets: (top: nth($coordinates, 1), right: nth($coordinates, 2), bottom: nth($coordinates, 3), left: nth($coordinates, 4));
 
   position: $position;
 

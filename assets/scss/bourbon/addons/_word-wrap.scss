@@ -23,7 +23,8 @@
 
   @if $wrap == break-word {
     word-break: break-all;
-  } @else {
+  }
+  @else {
     word-break: $wrap;
   }
 }

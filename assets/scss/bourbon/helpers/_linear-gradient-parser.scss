@@ -15,26 +15,17 @@
   @if $has-multiple-vals {
     $gradients: _linear-side-corner-parser($image, $first-val, $prefix, $suffix, $has-multiple-vals);
   }
-
   @else if $has-single-position != "" {
     $pos: unquote($has-single-position + "");
 
-    $gradients: (
-      webkit-image: -webkit- + $image,
-      spec-image: $prefix + "to " + $pos + $suffix
-    );
+    $gradients: (webkit-image: -webkit- + $image, spec-image: $prefix + "to " + $pos + $suffix);
   }
-
   @else if $has-angle {
     // Rotate degree for webkit
     $gradients: _linear-angle-parser($image, $first-val, $prefix, $suffix);
   }
-
   @else {
-    $gradients: (
-      webkit-image: -webkit- + $image,
-      spec-image: $image
-    );
+    $gradients: (webkit-image: -webkit- + $image, spec-image: $image);
   }
 
   @return $gradients;

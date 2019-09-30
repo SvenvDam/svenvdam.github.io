@@ -1,6 +1,7 @@
 body {
   color: $base-font-color;
   font-family: $base-font-family;
+
   //font-feature-settings: "kern", "liga", "pnum";
   font-size: $base-font-size;
   line-height: $base-line-height;
@@ -82,6 +83,7 @@ blockquote {
   line-height: 1.8;
   border-left: $small-spacing solid $light-gray-color;
   background-color: lighten($light-gray-color, 15%);
+
   p {
     margin: 0;
   }
@@ -126,10 +128,10 @@ em {
 ul,
 ol,
 dl {
-    margin-top: 0;
-    margin-left: 1.2em;
-    margin-bottom: 1rem;
-    list-style-type: square;
-    list-style-position: outside;
-    list-style-image: none;
+  margin-top: 0;
+  margin-left: 1.2em;
+  margin-bottom: 1rem;
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: none;
 }
