@@ -30,7 +30,8 @@
     &::selection {
       @content;
     }
-  } @else {
+  }
+  @else {
     ::-moz-selection {
       @content;
     }

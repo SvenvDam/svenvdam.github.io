@@ -4,16 +4,17 @@
   font-family: 'Overpass Mono';
   font-style: normal;
   font-weight: 400;
-  src: local('Overpass Mono Regular'), local('OverpassMono-Regular'), url(../fonts/overpass_mono_regular.ttf) format('truetype');
+  src: local("Overpass Mono Regular"), local("OverpassMono-Regular"), url(../fonts/overpass_mono_regular.ttf) format("truetype");
 }
+
 @font-face {
   font-family: 'Overpass Mono';
   font-style: normal;
   font-weight: 700;
-  src: local('Overpass Mono Bold'), local('OverpassMono-Bold'), url(../fonts/overpass_mono_bold.ttf) format('truetype');
+  src: local("Overpass Mono Bold"), local("OverpassMono-Bold"), url(../fonts/overpass_mono_bold.ttf) format("truetype");
 }
 
-$base-font-family: 'Overpass Mono', monospace;
+$base-font-family: "Overpass Mono", monospace;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -24,7 +25,7 @@ $base-line-height: 1.5;
 $heading-line-height: 1.2;
 
 // Other Sizes
-$base-border-radius: .52em;
+$base-border-radius: 0.52em;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
@@ -40,7 +41,7 @@ $medium-gray-color: #999;
 $light-gray-color: #ccc;
 
 // Font Colors
-$base-font-color: rgba($dark-gray-color, .8);
+$base-font-color: rgba($dark-gray-color, 0.8);
 $code-font-color: #C0C5CE;
 
 // Border
