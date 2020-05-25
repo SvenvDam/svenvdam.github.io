@@ -39,9 +39,9 @@ social:
     name: svenvdam
     link: https://www.linkedin.com/in/svenvdam/
     icon: /assets/icons/social/linkedin.svg
-  - site: RSS
-    link: /feed.xml
-    icon: /assets/icons/social/rss.svg
+#  - site: RSS
+#    link: /feed.xml
+#    icon: /assets/icons/social/rss.svg
 
 plugins:
   - jekyll-sitemap
@@ -55,6 +55,7 @@ navbar:
   - slug : blog
     title: Blog
 
-includeBlog: true
+includeBlog: false
+includeAbout: false
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script", "vendor"]
